@@ -1,0 +1,569 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-content {
+  padding: 30px 100px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  display: none;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.nav-bar {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.nav-bar > a {
+  color: black;
+  text-decoration: none;
+}
+.active-navbar {
+  font-weight: 900;
+}
+.nav-content > button {
+  background-color: white;
+  border-radius: 8px;
+  color: cornflowerblue;
+  width: 400px;
+  border: 1px solid rgb(150, 211, 234);
+  font-size: 18px;
+  margin-right: 200px;
+  padding: 10px 20px;
+}
+
+/* hero-1 */
+.hero-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 100px;
+}
+
+.hero1-left > h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.hero1-left > p {
+  margin-bottom: 20px;
+}
+.hero1-left > button {
+  background-color: rgb(50, 179, 230);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+}
+.hero1-right {
+  margin: 0px;
+  padding: 0px;
+}
+.hero1-img {
+  width: 600px;
+}
+
+/* Hero section 2 */
+.hero-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 100px;
+}
+.hero2-left {
+  margin-left: 100px;
+}
+.hero2-left > h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.hero2-left > p {
+  margin-bottom: 20px;
+}
+.hero2-left > button {
+  background-color: rgb(50, 179, 230);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+  font-size: 18px;
+}
+.hero2-right {
+  margin: 0px;
+  padding: 0px;
+}
+.hero2-img {
+  width: 400px;
+}
+
+/* hero section 3 */
+.hero-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 60px 100px;
+}
+
+.hero3-left > h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.hero3-left > p {
+  margin-bottom: 20px;
+}
+.hero3-left > button {
+  background-color: rgb(50, 179, 230);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  border: none;
+  font-size: 18px;
+}
+.hero3-right {
+  margin: 0px;
+  padding: 0px;
+}
+.hero3-img {
+  width: 400px;
+}
+/* Features */
+.features {
+  padding: 100px;
+}
+.features-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 40px;
+  align-items: center;
+}
+.features-header > h1 {
+  font-size: 50px;
+}
+.features-header > p {
+  font-size: 18px;
+}
+.features-list {
+  grid-gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+}
+
+.card > img {
+  padding-bottom: 20px;
+}
+.card > h1 {
+  margin-bottom: 20px;
+}
+
+/* Pricing */
+.pricing {
+  background-color: #64bcf7;
+  padding: 60px;
+}
+.pricing-header > h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #ffffff;
+  font-size: 40px;
+}
+.pricing-features {
+  padding: 0px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pricing-card {
+  line-height: 40px;
+  border-radius: 10px;
+  padding: 30px 0px 30px 30px;
+  margin-right: 40px;
+  background-color: #ffffff;
+}
+.pricing-card-header {
+  padding: 10px 0px 30px 0px;
+}
+.pricing-card-features h1:last-of-type {
+  text-align: center;
+}
+.pricing-card-features p:last-of-type {
+  text-align: center;
+}
+
+.pricing-card-features > button {
+  border: 1px solid #64bcf7;
+  background-color: #ffffff;
+  color: #64bcf7;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 80px;
+}
+.pricing-active {
+  line-height: 40px;
+  border-radius: 10px;
+  margin-right: 40px;
+  background-color: #ffffff;
+}
+.pricing-details > button {
+  border: 1px solid #64bcf7;
+  background-color: #64bcf7;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-left: 80px;
+  border: 1px solid #64bcf7;
+}
+.pricing-active-header {
+  border-radius: 10px;
+  padding: 10px 30px 30px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0px;
+}
+.pricing-details h1:last-of-type {
+  text-align: center;
+}
+.pricing-details p:last-of-type {
+  text-align: center;
+}
+.pricing-details {
+  padding: 30px;
+}
+/* Testimonials */
+.testimonial {
+  padding: 30px 100px;
+}
+.testi-header {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.testi-header > h1 {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.testi-header > p {
+  padding: 0px 100px;
+}
+
+.testi-card > p {
+  padding-bottom: 30px;
+}
+
+.circle {
+  width: 80px;
+  background-color: beige;
+  height: 80px;
+  border-radius: 40px;
+}
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.testi-profile {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.testi-name > h1 {
+  padding-bottom: 10px;
+}
+
+/* Register */
+.register {
+  align-items: center;
+  color: #ffffff;
+  background-color: #64bcf7;
+  padding: 60px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.register-header > h1 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+.register-btn {
+  text-align: end;
+  width: 100%;
+}
+.register-btn > button {
+  /* width: 100px; */
+
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+/* footer */
+.footer {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+.about-us > h1 {
+  padding-bottom: 30px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.menu > h1 {
+  padding-bottom: 20px;
+}
+.menu > a {
+  text-decoration: none;
+}
+.menu-social {
+  display: flex;
+  flex-direction: row;
+}
+.menu-social > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #64bcf7;
+  border-radius: 50px;
+  width: 30px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsiveness */
+
+/* Mobile responsive */
+
+@media screen and (max-width: 568px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-content {
+    width: fit-content;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+  }
+  .logo {
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo > h1 {
+    font-size: 20px;
+  }
+  .nav-content > button {
+    margin-left: 20px;
+    width: 180px;
+    font-size: 18px;
+  }
+
+  /* Hero 1 section */
+  .hero-1 {
+    padding: 10px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero1-left {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero1-left > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero-1 > img {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  /* Hero 2 section */
+  .hero-2 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero2-img {
+    height: 100%;
+    width: 100%;
+  }
+  .hero2-left {
+    margin: 0px;
+  }
+  .hero2-left > h1 {
+    font-size: 24px;
+  }
+  /* Hero 3 section */
+  .hero-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .hero3-left > h1 {
+    font-size: 24px;
+  }
+  .hero3-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* Features */
+  .features {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .features-header {
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .features-header > h1 {
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  .features-list {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .pricing {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-header {
+    padding: 0px;
+    margin: 0px;
+  }
+  .pricing-header > h1 {
+    font-size: 24px;
+  }
+  .pricing-features {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pricing-card {
+    padding: 20px 0px;
+    margin: 0px;
+  }
+  .pricing-card-features {
+    text-align: left;
+    padding-left: 60px;
+  }
+  .pricing-card-features > h1,
+  .pricing-card-features > p {
+    padding-right: 80px;
+  }
+  .pricing-card-features > button {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .pricing-active {
+    margin: 0px;
+    text-align: center;
+  }
+  .pricing-active > .pricing-details {
+    text-align: left;
+    padding-left: 60px;
+  }
+  .pricing-details > h1,
+  .pricing-details > p {
+    padding-right: 80px;
+  }
+  .pricing-details > button {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .testimonial {
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+  }
+  .testi-header {
+    padding: 0px;
+    margin: 0px;
+  }
+  .testi-header > h1 {
+    font-size: 30px;
+  }
+  .testi-header > p {
+    padding: 0px;
+    margin: 0px;
+  }
+  .testimonial-cards {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+
+  .register {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin: 0px;
+    text-align: center;
+  }
+  .register-header > h1 {
+    font-size: 24px;
+  }
+  .register-btn {
+    padding-right: 120px;
+    padding-top: 20px;
+    margin: 0px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 0px;
+  }
+  .about-us {
+    padding-top: 20px;
+  }
+  .menu-social {
+    padding-left: 20px;
+    margin: 0px;
+  }
+} ;
